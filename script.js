@@ -13,7 +13,7 @@ class ValentineCountdown {
         
         this.messages = {
             8: {
-                title: "Will You Be Mine Forever? ",
+                title: "Will You Be Mine Forever?",
                 content: `
                     <h3>My Love, My Everything,</h3>
                     <p>Today, on Propose Day, I want to ask you something.</p> 
@@ -52,7 +52,7 @@ class ValentineCountdown {
                     <p>But I realize I've been treating you like a toy I can throw aside when I'm angry. 
                     I've forgotten that even teddy bears have feelings, even the strongest protectors need to be held sometimes.</p>
                     <p>You've been my teddy bear when:<br>
-                    • I was scared about my future<br>
+                    • I was scared about my futuAAre<br>
                     • I cried over small things like you said when I came on last monday when I was sick.<br>
                     • I felt lost and alone<br>
                     • I needed someone to just listen but mostly don't.<br>
@@ -137,6 +137,7 @@ class ValentineCountdown {
         this.checkUnlockedDays();
         this.startCountdown();
         this.setupEventListeners();
+        // Auto-enable notifications for better UX
         this.requestNotificationPermission();
     }
     
@@ -229,40 +230,66 @@ class ValentineCountdown {
     }
     
     startCountdown() {
-        this.updateCountdown();
+        // Clear any existing intervals
+        if (this.countdownInterval) {
+            clearInterval(this.countdownInterval);
+        }
+        
+        // Update countdown immediately and then every second
+        this.updateIndividualCountdowns();
         this.countdownInterval = setInterval(() => {
-            this.updateCountdown();
+            this.updateIndividualCountdowns();
         }, 1000);
         
         this.scheduleMidnightNotification();
     }
     
-    updateCountdown() {
+    updateIndividualCountdowns() {
         const now = new Date();
-        const tomorrow = new Date(now);
-        tomorrow.setDate(tomorrow.getDate() + 1);
-        tomorrow.setHours(0, 0, 0, 0);
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
         
-        const diff = tomorrow - now;
-        
-        if (diff <= 0) {
-            this.checkUnlockedDays();
-            this.scheduleMidnightNotification();
-            return;
-        }
-        
-        const hours = Math.floor(diff / (1000 * 60 * 60));
-        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-        
-        document.getElementById('hours').textContent = String(hours).padStart(2, '0');
-        document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
-        document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
-        
-        const nextDay = this.getNextUnlockedDay();
-        if (nextDay) {
-            document.getElementById('timer-title').textContent = `${nextDay.name} unlocks in:`;
-        }
+        this.days.forEach(dayData => {
+            const timerElement = document.getElementById(`timer-${dayData.day}`);
+            if (!timerElement) return;
+            
+            const dayDate = new Date(dayData.date);
+            dayDate.setHours(0, 0, 0, 0);
+            
+            // Check if this is today and the day is not unlocked yet
+            const isToday = dayDate.getTime() === today.getTime();
+            const isLocked = !dayData.unlocked;
+            
+            if (isToday && isLocked) {
+                // Show timer for today's locked event
+                timerElement.style.display = 'block';
+                
+                // Calculate time until midnight
+                const midnight = new Date(now);
+                midnight.setDate(midnight.getDate() + 1);
+                midnight.setHours(0, 0, 0, 0);
+                
+                const diff = midnight - now;
+                
+                if (diff <= 0) {
+                    // Time's up, unlock the day
+                    this.checkUnlockedDays();
+                    timerElement.style.display = 'none';
+                } else {
+                    // Update timer display
+                    const hours = Math.floor(diff / (1000 * 60 * 60));
+                    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+                    
+                    timerElement.querySelector('.timer-hours').textContent = String(hours).padStart(2, '0');
+                    timerElement.querySelector('.timer-minutes').textContent = String(minutes).padStart(2, '0');
+                    timerElement.querySelector('.timer-seconds').textContent = String(seconds).padStart(2, '0');
+                }
+            } else {
+                // Hide timer for other days
+                timerElement.style.display = 'none';
+            }
+        });
     }
     
     getNextUnlockedDay() {
@@ -303,13 +330,8 @@ class ValentineCountdown {
     }
     
     setupEventListeners() {
-        const notifyBtn = document.getElementById('notify-btn');
         const modalClose = document.getElementById('modal-close');
         const modal = document.getElementById('notification-modal');
-        
-        notifyBtn.addEventListener('click', () => {
-            this.requestNotificationPermission();
-        });
         
         modalClose.addEventListener('click', () => {
             modal.style.display = 'none';
@@ -335,16 +357,12 @@ class ValentineCountdown {
         if ('Notification' in window) {
             if (Notification.permission === 'granted') {
                 this.notificationEnabled = true;
-                document.getElementById('notify-btn').textContent = 'Notifications Enabled ✓';
-                document.getElementById('notify-btn').disabled = true;
-                this.showNotification('Midnight notifications enabled! You\'ll get alerts at 12 AM.');
+                this.showNotification('Valentine countdown is ready! You\'ll get alerts at 12 AM.');
             } else if (Notification.permission !== 'denied') {
                 const permission = await Notification.requestPermission();
                 if (permission === 'granted') {
                     this.notificationEnabled = true;
-                    document.getElementById('notify-btn').textContent = 'Notifications Enabled ✓';
-                    document.getElementById('notify-btn').disabled = true;
-                    this.showNotification('Midnight notifications enabled! You\'ll get alerts at 12 AM.');
+                    this.showNotification('Valentine countdown is ready! You\'ll get alerts at 12 AM.');
                 }
             }
         }
