@@ -13,14 +13,19 @@ class ValentineCountdown {
         
         this.messages = {
             8: {
-                title: "Will You Be Mine Forever?",
+                title: "Will You Be Mine Forever? ",
                 content: `
                     <h3>My Love, My Everything,</h3>
-                    <p>Today, on Propose Day, I want to ask you something that my heart has been wanting to scream from the rooftops. After all the apologies and promises, I need you to know something fundamental:</p>
-                    <p>You are my home. You are my peace. You are the calm in my storms and the light in my darkness.</p>
-                    <p>I know I've failed you. I know I've been blind to your love. But today, I want to propose not just a future together, but a new beginning. A beginning where I see you, cherish you, and love you the way you deserve.</p>
-                    <p>Will you marry me? Will you let me spend the rest of my life making up for every moment I took you for granted? Will you let me love you as fiercely and as selflessly as you have always loved me?</p>
-                    <p>I don't deserve you, but I promise to spend every day trying to be worthy of your incredible heart.</p>
+                    <p>Today, on Propose Day, I want to ask you something.</p> 
+                    <p>After all the apologies and promises, I need you to know something fundamental:</p>
+            ,       <p>"From the moment you walked into my life, everything changed for the better. You are my today, my tomorrow, and my forever."</p>
+                    <p>I know I've failed you. I know I've been blind to your love. But today, I want to propose not just a future together, but a new beginning.<p/>
+                    <p>A beginning where I see you, cherish you, and love you the way you deserve.</p>
+                    <p>Will you marry me?</p>
+                    <p>  Will you make me the happiest person by being mine for life?"</p>
+                    <p>Will you let me spend the rest of my life making up for every moment I took you for granted?</p>
+                    <p> Will you let me love you as fiercely and as selflessly as you have always loved me?</p>
+                    <p>I don't deserve you, but I promise to spend every day trying to be worthy of you.</p>
                     <p class="signature">On my knees, with all my love,<br>Forever yours if you'll have me</p>
                 `
             },
@@ -28,7 +33,7 @@ class ValentineCountdown {
                 title: "Sweet Like Your Love",
                 content: `
                     <h3>My Sweetest Love,</h3>
-                    <p>They say chocolate is sweet, but nothing compares to the sweetness of your soul. The way you loved me during Ramadan, standing in the hot sun for hours, doing charity for my sins - that's a sweetness no chocolate can match.</p>
+                    <p>They say chocolate is sweet, but nothing compares to the sweetness of your soul. The way you loved me during Ramadan, doing charity for my sins - that's a sweetness no chocolate can match.</p>
                     <p>Today, I want to remind you of all the sweet moments you've given me:</p>
                     <p>• The sweet way you look at me when you think I'm not watching<br>
                     • The sweet patience you have when I'm being difficult<br>
@@ -43,13 +48,14 @@ class ValentineCountdown {
                 title: "My Teddy Bear",
                 content: `
                     <h3>My Cuddly Protector,</h3>
-                    <p>Today is Teddy Day, and I want you to know that you've always been my teddy bear - the one I hold onto when I'm scared, the one who absorbs my tears, the one who protects me from the world.</p>
-                    <p>But I realize I've been treating you like a toy I can throw aside when I'm angry. I've forgotten that even teddy bears have feelings, even the strongest protectors need to be held sometimes.</p>
+                    <p>Today is Teddy Day, and I want you to know that you've always been my teddy bear - the one I hold onto when I'm scared, the one who protects me from the world.</p>
+                    <p>But I realize I've been treating you like a toy I can throw aside when I'm angry. 
+                    I've forgotten that even teddy bears have feelings, even the strongest protectors need to be held sometimes.</p>
                     <p>You've been my teddy bear when:<br>
                     • I was scared about my future<br>
-                    • I cried over small things<br>
+                    • I cried over small things like you said when I came on last monday when I was sick.<br>
                     • I felt lost and alone<br>
-                    • I needed someone to just listen<br>
+                    • I needed someone to just listen but mostly don't.<br>
                     • I wanted to be held without judgment</p>
                     <p>Today, I want to be YOUR teddy bear. I want to be the one you can lean on, the one who protects YOUR heart, the one who holds YOU when you need it.</p>
                     <p class="signature">Your teddy bear turned human,<br>Forever ready to hold you</p>
