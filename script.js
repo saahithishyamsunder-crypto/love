@@ -178,9 +178,8 @@ class ValentineCountdown {
             card.classList.add('unlocked');
             
             if (this.messages[dayNumber]) {
-                const content = card.querySelector('.card-content');
-                content.innerHTML = `
-                    <div class="day-icon">${this.getDayIcon(dayNumber)}</div>
+                const letter = card.querySelector('.letter');
+                letter.innerHTML = `
                     <div class="message">
                         ${this.messages[dayNumber].content}
                     </div>
@@ -207,10 +206,9 @@ class ValentineCountdown {
                 if (dayData.unlocked) {
                     card.classList.remove('locked');
                     if (dayData.day > 7 && this.messages[dayData.day]) {
-                        const content = card.querySelector('.card-content');
-                        if (!content.querySelector('.message')) {
-                            content.innerHTML = `
-                                <div class="day-icon">${this.getDayIcon(dayData.day)}</div>
+                        const letter = card.querySelector('.letter');
+                        if (!letter.querySelector('.message')) {
+                            letter.innerHTML = `
                                 <div class="message">
                                     ${this.messages[dayData.day].content}
                                 </div>
@@ -382,6 +380,25 @@ class ValentineCountdown {
 document.addEventListener('DOMContentLoaded', () => {
     new ValentineCountdown();
 });
+
+// Toggle envelope function
+function toggleEnvelope(envelope) {
+    const card = envelope.closest('.day-card');
+    if (card.classList.contains('locked')) {
+        return; // Don't open locked envelopes
+    }
+    
+    const letter = envelope.nextElementSibling;
+    const isOpen = envelope.classList.contains('open');
+    
+    if (isOpen) {
+        envelope.classList.remove('open');
+        letter.classList.remove('show');
+    } else {
+        envelope.classList.add('open');
+        letter.classList.add('show');
+    }
+}
 
 // Add some floating hearts animation
 function createFloatingHeart() {
