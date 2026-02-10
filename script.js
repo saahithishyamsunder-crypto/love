@@ -73,7 +73,6 @@ class ValentineCountdown {
                     • Remember your Ramadan prayers, every single day<br>
                     • Honor your charity work, and never forget it again<br>
                     • Listen before I speak, especially when we fight<br>
-                    • Choose love over ego, always and forever</p>
                     <p>These aren't just words. These are vows. Vows to the man who prayed 30 days for my sins, who gave away money and food for my forgiveness, who loved me when I was unlovable.</p>
                     <p class="signature">With sacred vows and a broken heart,<br>Your promise keeper for life</p>
                 `
@@ -82,7 +81,7 @@ class ValentineCountdown {
                 title: "The Hug I Owe You",
                 content: `
                     <h3>My Warmth, My Comfort,</h3>
-                    <p>Today is Hug Day, and I realize how many hugs I owe you. Hugs I should have given when you came home tired from work. Hugs I should have given when you were doing all that charity for me. Hugs I should have given instead of cold silence.</p>
+                    <p>Today is Hug Day, and I realize how many hugs I owe you. Hugs I should have given when you loved me even when I didn't deserve it. Hugs I should have given when you were doing all that charity for me. Hugs I should have given instead of cold silence.</p>
                     <p>I want to give you all the hugs I owe:</p>
                     <p>• A hug for every day of Ramadan you stood for my sins<br>
                     • A hug for every beggar you fed in my name<br>
@@ -98,7 +97,7 @@ class ValentineCountdown {
                 title: "Kisses of Redemption",
                 content: `
                     <h3>My Passion, My Redemption,</h3>
-                    <p>On Kiss Day, I want to talk about the kisses I've stolen from us. The good morning kisses I replaced with silence. The welcome home kisses I replaced with complaints. The "I'm sorry" kisses I refused to give.</p>
+                    <p>On Kiss Day, I want to talk about the kisses I've stolen from us. The "I'm sorry" kisses I refused to give.</p>
                     <p>But more than that, I want to honor the kisses you've given me without me deserving them:</p>
                     <p>• The forehead kisses when I was sick<br>
                     • The gentle kisses when I was crying<br>
