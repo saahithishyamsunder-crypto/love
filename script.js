@@ -16,16 +16,11 @@ class ValentineCountdown {
                 title: "Will You Be Mine Forever?",
                 content: `
                     <h3>My Love, My Everything,</h3>
-                    <p>Today, on Propose Day, I want to ask you something.</p> 
-                    <p>After all the apologies and promises, I need you to know something fundamental:</p>
-            ,       <p>"From the moment you walked into my life, everything changed for the better. You are my today, my tomorrow, and my forever."</p>
-                    <p>I know I've failed you. I know I've been blind to your love. But today, I want to propose not just a future together, but a new beginning.<p/>
-                    <p>A beginning where I see you, cherish you, and love you the way you deserve.</p>
-                    <p>Will you marry me?</p>
-                    <p>  Will you make me the happiest person by being mine for life?"</p>
-                    <p>Will you let me spend the rest of my life making up for every moment I took you for granted?</p>
-                    <p> Will you let me love you as fiercely and as selflessly as you have always loved me?</p>
-                    <p>I don't deserve you, but I promise to spend every day trying to be worthy of you.</p>
+                    <p>Today, on Propose Day, I want to ask you something that my heart has been wanting to scream from the rooftops. After all the apologies and promises, I need you to know something fundamental:</p>
+                    <p>You are my home. You are my peace. You are the calm in my storms and the light in my darkness.</p>
+                    <p>I know I've failed you. I know I've been blind to your love. But today, I want to propose not just a future together, but a new beginning. A beginning where I see you, cherish you, and love you the way you deserve.</p>
+                    <p>Will you marry me? Will you let me spend the rest of my life making up for every moment I took you for granted? Will you let me love you as fiercely and as selflessly as you have always loved me?</p>
+                    <p>I don't deserve you, but I promise to spend every day trying to be worthy of your incredible heart.</p>
                     <p class="signature">On my knees, with all my love,<br>Forever yours if you'll have me</p>
                 `
             },
@@ -33,7 +28,7 @@ class ValentineCountdown {
                 title: "Sweet Like Your Love",
                 content: `
                     <h3>My Sweetest Love,</h3>
-                    <p>They say chocolate is sweet, but nothing compares to the sweetness of your soul. The way you loved me during Ramadan, doing charity for my sins - that's a sweetness no chocolate can match.</p>
+                    <p>They say chocolate is sweet, but nothing compares to the sweetness of your soul. The way you loved me during Ramadan, standing in the hot sun for hours, doing charity for my sins - that's a sweetness no chocolate can match.</p>
                     <p>Today, I want to remind you of all the sweet moments you've given me:</p>
                     <p>• The sweet way you look at me when you think I'm not watching<br>
                     • The sweet patience you have when I'm being difficult<br>
@@ -48,14 +43,13 @@ class ValentineCountdown {
                 title: "My Teddy Bear",
                 content: `
                     <h3>My Cuddly Protector,</h3>
-                    <p>Today is Teddy Day, and I want you to know that you've always been my teddy bear - the one I hold onto when I'm scared, the one who protects me from the world.</p>
-                    <p>But I realize I've been treating you like a toy I can throw aside when I'm angry. 
-                    I've forgotten that even teddy bears have feelings, even the strongest protectors need to be held sometimes.</p>
+                    <p>Today is Teddy Day, and I want you to know that you've always been my teddy bear - the one I hold onto when I'm scared, the one who absorbs my tears, the one who protects me from the world.</p>
+                    <p>But I realize I've been treating you like a toy I can throw aside when I'm angry. I've forgotten that even teddy bears have feelings, even the strongest protectors need to be held sometimes.</p>
                     <p>You've been my teddy bear when:<br>
-                    • I was scared about my futuAAre<br>
-                    • I cried over small things like you said when I came on last monday when I was sick.<br>
+                    • I was scared about my future<br>
+                    • I cried over small things<br>
                     • I felt lost and alone<br>
-                    • I needed someone to just listen but mostly don't.<br>
+                    • I needed someone to just listen<br>
                     • I wanted to be held without judgment</p>
                     <p>Today, I want to be YOUR teddy bear. I want to be the one you can lean on, the one who protects YOUR heart, the one who holds YOU when you need it.</p>
                     <p class="signature">Your teddy bear turned human,<br>Forever ready to hold you</p>
@@ -73,6 +67,7 @@ class ValentineCountdown {
                     • Remember your Ramadan prayers, every single day<br>
                     • Honor your charity work, and never forget it again<br>
                     • Listen before I speak, especially when we fight<br>
+                    • Choose love over ego, always and forever</p>
                     <p>These aren't just words. These are vows. Vows to the man who prayed 30 days for my sins, who gave away money and food for my forgiveness, who loved me when I was unlovable.</p>
                     <p class="signature">With sacred vows and a broken heart,<br>Your promise keeper for life</p>
                 `
@@ -81,7 +76,7 @@ class ValentineCountdown {
                 title: "The Hug I Owe You",
                 content: `
                     <h3>My Warmth, My Comfort,</h3>
-                    <p>Today is Hug Day, and I realize how many hugs I owe you. Hugs I should have given when you loved me even when I didn't deserve it. Hugs I should have given when you were doing all that charity for me. Hugs I should have given instead of cold silence.</p>
+                    <p>Today is Hug Day, and I realize how many hugs I owe you. Hugs I should have given when you came home tired from work. Hugs I should have given when you were doing all that charity for me. Hugs I should have given instead of cold silence.</p>
                     <p>I want to give you all the hugs I owe:</p>
                     <p>• A hug for every day of Ramadan you stood for my sins<br>
                     • A hug for every beggar you fed in my name<br>
@@ -97,7 +92,7 @@ class ValentineCountdown {
                 title: "Kisses of Redemption",
                 content: `
                     <h3>My Passion, My Redemption,</h3>
-                    <p>On Kiss Day, I want to talk about the kisses I've stolen from us. The "I'm sorry" kisses I refused to give.</p>
+                    <p>On Kiss Day, I want to talk about the kisses I've stolen from us. The good morning kisses I replaced with silence. The welcome home kisses I replaced with complaints. The "I'm sorry" kisses I refused to give.</p>
                     <p>But more than that, I want to honor the kisses you've given me without me deserving them:</p>
                     <p>• The forehead kisses when I was sick<br>
                     • The gentle kisses when I was crying<br>
@@ -110,16 +105,16 @@ class ValentineCountdown {
                 `
             },
             14: {
-                title: "Our Valentine's Day Rebirth",
+                title: "My Forever Valentine",
                 content: `
-                    <h3>My Valentine, My Everything, My Future,</h3>
-                    <p>Today, on Valentine's Day, we don't just celebrate love - we celebrate our rebirth. The rebirth of a love that never died, just got lost in my blindness.</p>
-                    <p>These past 7 days have been a journey of my awakening. From the rose of apology to the proposal of forever, from the chocolate of your sweetness to the teddy of your comfort, from the promises I'll keep to the hugs I owe, to the kisses that will heal - today, it all comes together.</p>
-                    <p>I want you to know something profound: Your Ramadan sacrifice wasn't just about my sins. It was about your love. A love so pure that it would stand in the sun for 30 days, feed strangers, give away money - all for someone who didn't even notice.</p>
-                    <p>That's the love I want to celebrate today. Not just romantic love, but divine love. The kind of love that changes souls, the kind that redeems, the kind that lasts beyond this lifetime.</p>
-                    <p>You are my Valentine today, tomorrow, and forever. You are my past, my present, my future. You are my redemption story, my love epic, my happily ever after.</p>
-                    <p><strong>Happy Valentine's Day, my soulmate. This is just the beginning of our real love story.</strong></p>
-                    <p class="signature">Born again in your love,<br>Your Valentine for all eternity</p>
+                    <h3>My Love, My Everything,</h3>
+                    <p>Today, on Valentine's Day, I just want to say something simple from my heart.</p>
+                    <p>These past 7 days have shown me how blind I've been to your love. From the rose of apology to the promise of forever, from chocolate sweetness to teddy comfort, from hugs I owe to kisses that heal - today, I finally see.</p>
+                    <p>I want you to know something: Your Ramadan sacrifice wasn't just about my sins. It was about your beautiful heart. A heart so pure that it would stand in the sun for 30 days, feed strangers, give away money - all for someone who didn't even notice.</p>
+                    <p>That's the love I cherish today. Not just romantic love, but real, true, unconditional love. The kind that changes people, the kind that heals, the kind that lasts forever.</p>
+                    <p>You are my Valentine today, tomorrow, and always. You are my past, my present, my future. You are my everything.</p>
+                    <p><strong>I love you more than words can say. Happy Valentine's Day, my soulmate.</strong></p>
+                    <p class="signature">Completely yours in every way,<br>Your Valentine forever</p>
                 `
             }
         };
@@ -402,7 +397,33 @@ class ValentineCountdown {
 // Initialize the countdown when the page loads
 document.addEventListener('DOMContentLoaded', () => {
     new ValentineCountdown();
+    createSparkles();
 });
+
+// Create sparkle effects
+function createSparkles() {
+    const container = document.getElementById('sparkleContainer');
+    if (!container) return;
+    
+    for (let i = 0; i < 30; i++) {
+        setTimeout(() => {
+            const sparkle = document.createElement('div');
+            sparkle.className = 'sparkle';
+            sparkle.style.left = Math.random() * 100 + '%';
+            sparkle.style.top = Math.random() * 100 + '%';
+            sparkle.style.animationDelay = Math.random() * 3 + 's';
+            sparkle.style.animationDuration = (Math.random() * 3 + 2) + 's';
+            container.appendChild(sparkle);
+            
+            // Remove sparkle after animation
+            setTimeout(() => {
+                sparkle.remove();
+                // Create new sparkle to maintain count
+                createSparkles();
+            }, 5000);
+        }, i * 200);
+    }
+}
 
 // Toggle envelope function
 function toggleEnvelope(envelope) {
@@ -418,8 +439,120 @@ function toggleEnvelope(envelope) {
         envelope.classList.remove('open');
         letter.classList.remove('show');
     } else {
+        // Add dramatic opening effects
         envelope.classList.add('open');
-        letter.classList.add('show');
+        
+        // Create burst of hearts on open
+        createHeartBurst(envelope);
+        
+        // Show letter with delay for drama
+        setTimeout(() => {
+            letter.classList.add('show');
+        }, 300);
+        
+        // Add sparkle explosion
+        createSparkleExplosion(envelope);
+    }
+}
+
+// Create heart burst effect
+function createHeartBurst(element) {
+    const rect = element.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    
+    for (let i = 0; i < 12; i++) {
+        const heart = document.createElement('div');
+        heart.innerHTML = ['❤️', '💕', '💖', '💗', '💝'][Math.floor(Math.random() * 5)];
+        heart.style.position = 'fixed';
+        heart.style.left = centerX + 'px';
+        heart.style.top = centerY + 'px';
+        heart.style.fontSize = Math.random() * 15 + 10 + 'px';
+        heart.style.pointerEvents = 'none';
+        heart.style.zIndex = '9999';
+        heart.style.color = `hsl(${Math.random() * 60 + 330}, 100%, 60%)`;
+        
+        const angle = (Math.PI * 2 * i) / 12;
+        const velocity = Math.random() * 200 + 100;
+        const lifetime = Math.random() * 1000 + 1500;
+        
+        document.body.appendChild(heart);
+        
+        let startTime = Date.now();
+        const animate = () => {
+            const elapsed = Date.now() - startTime;
+            const progress = elapsed / lifetime;
+            
+            if (progress >= 1) {
+                heart.remove();
+                return;
+            }
+            
+            const x = centerX + Math.cos(angle) * velocity * progress;
+            const y = centerY + Math.sin(angle) * velocity * progress - (progress * progress * 200);
+            const opacity = 1 - progress;
+            
+            heart.style.left = x + 'px';
+            heart.style.top = y + 'px';
+            heart.style.opacity = opacity;
+            heart.style.transform = `scale(${1 + progress * 0.5}) rotate(${progress * 360}deg)`;
+            
+            requestAnimationFrame(animate);
+        };
+        
+        requestAnimationFrame(animate);
+    }
+}
+
+// Create sparkle explosion effect
+function createSparkleExplosion(element) {
+    const rect = element.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    
+    for (let i = 0; i < 20; i++) {
+        const sparkle = document.createElement('div');
+        sparkle.style.position = 'fixed';
+        sparkle.style.left = centerX + 'px';
+        sparkle.style.top = centerY + 'px';
+        sparkle.style.width = '4px';
+        sparkle.style.height = '4px';
+        sparkle.style.background = 'radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,182,193,0.8) 50%, transparent 70%)';
+        sparkle.style.borderRadius = '50%';
+        sparkle.style.pointerEvents = 'none';
+        sparkle.style.zIndex = '9999';
+        sparkle.style.boxShadow = '0 0 10px rgba(255,105,180,0.8)';
+        
+        const angle = (Math.PI * 2 * i) / 20;
+        const velocity = Math.random() * 150 + 100;
+        const lifetime = Math.random() * 800 + 1200;
+        
+        document.body.appendChild(sparkle);
+        
+        let startTime = Date.now();
+        const animate = () => {
+            const elapsed = Date.now() - startTime;
+            const progress = elapsed / lifetime;
+            
+            if (progress >= 1) {
+                sparkle.remove();
+                return;
+            }
+            
+            const x = centerX + Math.cos(angle) * velocity * progress;
+            const y = centerY + Math.sin(angle) * velocity * progress - (progress * progress * 150);
+            const opacity = 1 - progress;
+            const scale = 1 + progress * 2;
+            
+            sparkle.style.left = x + 'px';
+            sparkle.style.top = y + 'px';
+            sparkle.style.opacity = opacity;
+            sparkle.style.transform = `scale(${scale})`;
+            
+            requestAnimationFrame(animate);
+        };
+        
+        requestAnimationFrame(animate);
     }
 }
 
